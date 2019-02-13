@@ -1,0 +1,36 @@
+//
+//  Pop-Test.pch
+//  Pop-Test
+//
+//  Created by mac on 11/02/2019.
+//  Copyright © 2019 Woodsoo. All rights reserved.
+//
+
+#ifndef Pop_Test_pch
+#define Pop_Test_pch
+
+// 定义这个常量，就可以不用在开发过程中使用"mas_"前缀。
+#define MAS_SHORTHAND
+// 定义这个常量，就可以让Masonry帮我们自动把基础数据类型的数据，自动装箱为对象类型。
+#define MAS_SHORTHAND_GLOBALS
+#import <Masonry.h>
+
+#import <pop/POP.h>
+
+//屏幕的宽和高
+#define SCREEN_WIDTH    [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT   [UIScreen mainScreen].bounds.size.height
+
+#define ZCXWS(weakSelf)        __weak __typeof(&*self)weakSelf = self;
+
+//颜色
+#define ZCXColor(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
+
+
+
+/************************************************************    ---SpringType---    ************************************************************/
+#define SpringType_kPOPLayerSize @"SpringType_kPOPLayerSize"
+#define SpringType_kPOPLayerPositionY @"SpringType_kPOPLayerPositionY"
+#define SpringType_kPOPLayerPosition @"SpringType_kPOPLayerPosition"
+
+#endif /* Pop_Test_pch */

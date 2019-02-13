@@ -5,8 +5,13 @@
 //  Created by mac on 11/02/2019.
 //  Copyright © 2019 Woodsoo. All rights reserved.
 //
+//Spring弹性   Decay衰减     Basic基础     Custom自定义
 
 #import "AppDelegate.h"
+#import "SpringViewController.h"
+#import "DecayViewController.h"
+#import "BasicViewController.h"
+#import "CustomViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +22,25 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    SpringViewController *springVc = [[SpringViewController alloc]init];
+    UINavigationController *springNavi = [[UINavigationController alloc]initWithRootViewController:springVc];
+    springVc.title = @"Spring";
+    DecayViewController *decayVc = [[DecayViewController alloc]init];
+    UINavigationController *decayNavi = [[UINavigationController alloc]initWithRootViewController:decayVc];
+    decayVc.title = @"Decay";
+    BasicViewController *basicVc = [[BasicViewController alloc]init];
+    UINavigationController *basicNavi = [[UINavigationController alloc]initWithRootViewController:basicVc];
+    basicVc.title = @"Basic";
+    CustomViewController *customVc = [[CustomViewController alloc]init];
+    UINavigationController *customNavi = [[UINavigationController alloc]initWithRootViewController:customVc];
+    customVc.title = @"Custom";
+    UITabBarController *tabBar = [[UITabBarController alloc]init];
+    tabBar.viewControllers = @[springNavi,decayNavi,basicNavi,customNavi];
+    self.window.rootViewController = tabBar;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

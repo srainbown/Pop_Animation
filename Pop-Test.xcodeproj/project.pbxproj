@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		0418C5DE2211445C009920CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0418C5DD2211445C009920CA /* AppDelegate.m */; };
-		0418C5E12211445C009920CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0418C5E02211445C009920CA /* ViewController.m */; };
-		0418C5E42211445C009920CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0418C5E22211445C009920CA /* Main.storyboard */; };
 		0418C5E62211445D009920CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0418C5E52211445D009920CA /* Assets.xcassets */; };
 		0418C5E92211445D009920CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0418C5E72211445D009920CA /* LaunchScreen.storyboard */; };
 		0418C5EC2211445D009920CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0418C5EB2211445D009920CA /* main.m */; };
 		0418C5F62211445D009920CA /* Pop_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0418C5F52211445D009920CA /* Pop_TestTests.m */; };
 		0418C6012211445D009920CA /* Pop_TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0418C6002211445D009920CA /* Pop_TestUITests.m */; };
+		0418C62822115BA4009920CA /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0418C62722115BA4009920CA /* CustomViewController.m */; };
+		0418C62B22115BB2009920CA /* BasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0418C62A22115BB2009920CA /* BasicViewController.m */; };
+		0418C62E22115BBD009920CA /* DecayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0418C62D22115BBD009920CA /* DecayViewController.m */; };
+		0418C63122115BC9009920CA /* SpringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0418C63022115BC9009920CA /* SpringViewController.m */; };
+		0418C634221160E2009920CA /* SpringDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0418C633221160E2009920CA /* SpringDetailsViewController.m */; };
+		9DD8BFAF63EE3183D1121EA0 /* libPods-Pop-Test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2B4D97CFC7E058654B7774 /* libPods-Pop-Test.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +42,6 @@
 		0418C5D92211445C009920CA /* Pop-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pop-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0418C5DC2211445C009920CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0418C5DD2211445C009920CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0418C5DF2211445C009920CA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0418C5E02211445C009920CA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0418C5E32211445C009920CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0418C5E52211445D009920CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0418C5E82211445D009920CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0418C5EA2211445D009920CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +52,20 @@
 		0418C5FC2211445D009920CA /* Pop-TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pop-TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0418C6002211445D009920CA /* Pop_TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pop_TestUITests.m; sourceTree = "<group>"; };
 		0418C6022211445D009920CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0418C61B22115355009920CA /* Pop-Test.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pop-Test.pch"; sourceTree = "<group>"; };
+		0418C62622115BA4009920CA /* CustomViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomViewController.h; sourceTree = "<group>"; };
+		0418C62722115BA4009920CA /* CustomViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomViewController.m; sourceTree = "<group>"; };
+		0418C62922115BB2009920CA /* BasicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicViewController.h; sourceTree = "<group>"; };
+		0418C62A22115BB2009920CA /* BasicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicViewController.m; sourceTree = "<group>"; };
+		0418C62C22115BBD009920CA /* DecayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DecayViewController.h; sourceTree = "<group>"; };
+		0418C62D22115BBD009920CA /* DecayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecayViewController.m; sourceTree = "<group>"; };
+		0418C62F22115BC9009920CA /* SpringViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpringViewController.h; sourceTree = "<group>"; };
+		0418C63022115BC9009920CA /* SpringViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpringViewController.m; sourceTree = "<group>"; };
+		0418C632221160E2009920CA /* SpringDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpringDetailsViewController.h; sourceTree = "<group>"; };
+		0418C633221160E2009920CA /* SpringDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpringDetailsViewController.m; sourceTree = "<group>"; };
+		56F8690FDA9493674AA29C5E /* Pods-Pop-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pop-Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pop-Test/Pods-Pop-Test.release.xcconfig"; sourceTree = "<group>"; };
+		5AD9A329E1FD4AE945E250FF /* Pods-Pop-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pop-Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pop-Test/Pods-Pop-Test.debug.xcconfig"; sourceTree = "<group>"; };
+		ED2B4D97CFC7E058654B7774 /* libPods-Pop-Test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Pop-Test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DD8BFAF63EE3183D1121EA0 /* libPods-Pop-Test.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +101,8 @@
 				0418C5F42211445D009920CA /* Pop-TestTests */,
 				0418C5FF2211445D009920CA /* Pop-TestUITests */,
 				0418C5DA2211445C009920CA /* Products */,
+				B83CCA067F524F7F256004FD /* Pods */,
+				0B6C5330355790C1D566BC09 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +119,13 @@
 		0418C5DB2211445C009920CA /* Pop-Test */ = {
 			isa = PBXGroup;
 			children = (
+				0418C61A22115331009920CA /* Other */,
+				0418C62022115B32009920CA /* Spring */,
+				0418C62122115B5B009920CA /* Decay */,
+				0418C62422115B7A009920CA /* Basic */,
+				0418C62522115B80009920CA /* Custom */,
 				0418C5DC2211445C009920CA /* AppDelegate.h */,
 				0418C5DD2211445C009920CA /* AppDelegate.m */,
-				0418C5DF2211445C009920CA /* ViewController.h */,
-				0418C5E02211445C009920CA /* ViewController.m */,
-				0418C5E22211445C009920CA /* Main.storyboard */,
 				0418C5E52211445D009920CA /* Assets.xcassets */,
 				0418C5E72211445D009920CA /* LaunchScreen.storyboard */,
 				0418C5EA2211445D009920CA /* Info.plist */,
@@ -132,6 +152,69 @@
 			path = "Pop-TestUITests";
 			sourceTree = "<group>";
 		};
+		0418C61A22115331009920CA /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				0418C61B22115355009920CA /* Pop-Test.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		0418C62022115B32009920CA /* Spring */ = {
+			isa = PBXGroup;
+			children = (
+				0418C62F22115BC9009920CA /* SpringViewController.h */,
+				0418C63022115BC9009920CA /* SpringViewController.m */,
+				0418C632221160E2009920CA /* SpringDetailsViewController.h */,
+				0418C633221160E2009920CA /* SpringDetailsViewController.m */,
+			);
+			path = Spring;
+			sourceTree = "<group>";
+		};
+		0418C62122115B5B009920CA /* Decay */ = {
+			isa = PBXGroup;
+			children = (
+				0418C62C22115BBD009920CA /* DecayViewController.h */,
+				0418C62D22115BBD009920CA /* DecayViewController.m */,
+			);
+			path = Decay;
+			sourceTree = "<group>";
+		};
+		0418C62422115B7A009920CA /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				0418C62922115BB2009920CA /* BasicViewController.h */,
+				0418C62A22115BB2009920CA /* BasicViewController.m */,
+			);
+			path = Basic;
+			sourceTree = "<group>";
+		};
+		0418C62522115B80009920CA /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				0418C62622115BA4009920CA /* CustomViewController.h */,
+				0418C62722115BA4009920CA /* CustomViewController.m */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		0B6C5330355790C1D566BC09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED2B4D97CFC7E058654B7774 /* libPods-Pop-Test.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B83CCA067F524F7F256004FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5AD9A329E1FD4AE945E250FF /* Pods-Pop-Test.debug.xcconfig */,
+				56F8690FDA9493674AA29C5E /* Pods-Pop-Test.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0418C6052211445D009920CA /* Build configuration list for PBXNativeTarget "Pop-Test" */;
 			buildPhases = (
+				EF7D929E333F1BA5486C8D64 /* [CP] Check Pods Manifest.lock */,
 				0418C5D52211445C009920CA /* Sources */,
 				0418C5D62211445C009920CA /* Frameworks */,
 				0418C5D72211445C009920CA /* Resources */,
+				E9B1E8A411E267A8DDB54D04 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -237,7 +322,6 @@
 			files = (
 				0418C5E92211445D009920CA /* LaunchScreen.storyboard in Resources */,
 				0418C5E62211445D009920CA /* Assets.xcassets in Resources */,
-				0418C5E42211445C009920CA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +341,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E9B1E8A411E267A8DDB54D04 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Pop-Test/Pods-Pop-Test-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pop-Test/Pods-Pop-Test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF7D929E333F1BA5486C8D64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pop-Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0418C5D52211445C009920CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0418C5E12211445C009920CA /* ViewController.m in Sources */,
 				0418C5EC2211445D009920CA /* main.m in Sources */,
 				0418C5DE2211445C009920CA /* AppDelegate.m in Sources */,
+				0418C63122115BC9009920CA /* SpringViewController.m in Sources */,
+				0418C62E22115BBD009920CA /* DecayViewController.m in Sources */,
+				0418C634221160E2009920CA /* SpringDetailsViewController.m in Sources */,
+				0418C62B22115BB2009920CA /* BasicViewController.m in Sources */,
+				0418C62822115BA4009920CA /* CustomViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +435,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0418C5E22211445C009920CA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0418C5E32211445C009920CA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0418C5E72211445D009920CA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -433,11 +560,15 @@
 		};
 		0418C6062211445D009920CA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AD9A329E1FD4AE945E250FF /* Pods-Pop-Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8JK3D2L5JK;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Pop-Test/Other/Pop-Test.pch";
 				INFOPLIST_FILE = "Pop-Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,11 +581,15 @@
 		};
 		0418C6072211445D009920CA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56F8690FDA9493674AA29C5E /* Pods-Pop-Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8JK3D2L5JK;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Pop-Test/Other/Pop-Test.pch";
 				INFOPLIST_FILE = "Pop-Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
