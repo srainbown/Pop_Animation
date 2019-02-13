@@ -18,6 +18,7 @@
 		0418C62E22115BBD009920CA /* DecayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0418C62D22115BBD009920CA /* DecayViewController.m */; };
 		0418C63122115BC9009920CA /* SpringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0418C63022115BC9009920CA /* SpringViewController.m */; };
 		0418C634221160E2009920CA /* SpringDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0418C633221160E2009920CA /* SpringDetailsViewController.m */; };
+		049E49AB2214013A009BBEF9 /* DecayDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049E49AA2214013A009BBEF9 /* DecayDetailsViewController.m */; };
 		9DD8BFAF63EE3183D1121EA0 /* libPods-Pop-Test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2B4D97CFC7E058654B7774 /* libPods-Pop-Test.a */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +64,8 @@
 		0418C63022115BC9009920CA /* SpringViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpringViewController.m; sourceTree = "<group>"; };
 		0418C632221160E2009920CA /* SpringDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpringDetailsViewController.h; sourceTree = "<group>"; };
 		0418C633221160E2009920CA /* SpringDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpringDetailsViewController.m; sourceTree = "<group>"; };
+		049E49A92214013A009BBEF9 /* DecayDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DecayDetailsViewController.h; sourceTree = "<group>"; };
+		049E49AA2214013A009BBEF9 /* DecayDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecayDetailsViewController.m; sourceTree = "<group>"; };
 		56F8690FDA9493674AA29C5E /* Pods-Pop-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pop-Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pop-Test/Pods-Pop-Test.release.xcconfig"; sourceTree = "<group>"; };
 		5AD9A329E1FD4AE945E250FF /* Pods-Pop-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pop-Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pop-Test/Pods-Pop-Test.debug.xcconfig"; sourceTree = "<group>"; };
 		ED2B4D97CFC7E058654B7774 /* libPods-Pop-Test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Pop-Test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -176,6 +179,8 @@
 			children = (
 				0418C62C22115BBD009920CA /* DecayViewController.h */,
 				0418C62D22115BBD009920CA /* DecayViewController.m */,
+				049E49A92214013A009BBEF9 /* DecayDetailsViewController.h */,
+				049E49AA2214013A009BBEF9 /* DecayDetailsViewController.m */,
 			);
 			path = Decay;
 			sourceTree = "<group>";
@@ -395,6 +400,7 @@
 			files = (
 				0418C5EC2211445D009920CA /* main.m in Sources */,
 				0418C5DE2211445C009920CA /* AppDelegate.m in Sources */,
+				049E49AB2214013A009BBEF9 /* DecayDetailsViewController.m in Sources */,
 				0418C63122115BC9009920CA /* SpringViewController.m in Sources */,
 				0418C62E22115BBD009920CA /* DecayViewController.m in Sources */,
 				0418C634221160E2009920CA /* SpringDetailsViewController.m in Sources */,
