@@ -28,7 +28,7 @@
 #pragma mark -- 懒加载
 -(NSArray *)dataArray{
     if (_dataArray == nil) {
-        _dataArray = [NSArray arrayWithObjects:SpringType_kPOPLayerSize,SpringType_kPOPLayerPosition,SpringType_kPOPLayerPositionY, nil];
+        _dataArray = [NSArray arrayWithObjects:SpringType_kPOPLayerSize,SpringType_kPOPLayerPosition,SpringType_kPOPViewFrame,SpringType_kPOPLayerPositionY,SpringType_kPOPLayerScaleXY, nil];
     }
     return _dataArray;
 }

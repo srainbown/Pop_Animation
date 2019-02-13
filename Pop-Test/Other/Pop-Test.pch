@@ -29,8 +29,15 @@
 
 
 /************************************************************    ---SpringType---    ************************************************************/
-#define SpringType_kPOPLayerSize @"SpringType_kPOPLayerSize"
-#define SpringType_kPOPLayerPositionY @"SpringType_kPOPLayerPositionY"
-#define SpringType_kPOPLayerPosition @"SpringType_kPOPLayerPosition"
+#define SpringType_kPOPLayerSize                     @"SpringType_kPOPLayerSize"
+#define SpringType_kPOPLayerPositionY                @"SpringType_kPOPLayerPositionY"
+#define SpringType_kPOPLayerPosition                 @"SpringType_kPOPLayerPosition"
+#define SpringType_kPOPViewFrame                     @"SpringType_kPOPViewFrame"
+#define SpringType_kPOPLayerScaleXY                  @"SpringType_kPOPLayerScaleXY"
+
+
+
+
+
 
 #endif /* Pop_Test_pch */
